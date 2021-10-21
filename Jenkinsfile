@@ -1,13 +1,20 @@
 pipeline {
-    agent any
-
+    agent any 
     stages {
-        stage('Hello') {
+        stage('preparación') { 
             steps {
-                
-                
-                echo 'Hello World 2'
+                 echo 'Hello world!' 
             }
         }
-    }   
+        stage('construcción') { 
+            steps {
+                // 
+            }
+        }
+        stage('análisis de la imagen,') { 
+            steps {
+                // 
+            }
+        }
+    }
 }
