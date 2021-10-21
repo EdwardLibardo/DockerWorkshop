@@ -8,7 +8,7 @@ pipeline {
         }
         stage('construcción') { 
             steps {
-                echo 'Construccion' 
+                echo 'Construccion1' 
             }
         }
         stage('análisis de la imagen,') { 
